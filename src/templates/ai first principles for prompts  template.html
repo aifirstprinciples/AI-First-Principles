@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIFP Content Template</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <style>
+        /* Base styles */
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        /* Main title - Heaviest Roboto */
+        h1 {
+            font-weight: 900;
+            font-size: 2.2em;
+            margin: 0;
+        }
+
+        /* Section headers and content titles - Heavy Roboto, slightly larger than p */
+        h2 {
+            font-weight: 900;
+            font-size: 1.8em;
+            margin: 1.4em 0 0 0; /* Top: 0, Right: 0, Bottom: 1.5em, Left: 0 */
+        }
+
+        h3, 
+        .a-v-t, 
+        .a-t-t {
+            font-weight: 900;
+            font-size: 1.4em;
+            margin: 1.2em 0 .2em 0; /* Top: 0, Right: 0, Bottom: 1.5em, Left: 0 */
+        }
+
+        /* Standard paragraphs and descriptions - Light Roboto */
+        p, 
+        .a-v-d, 
+        .a-t-d {
+            font-weight: 300;
+            font-size: 1em;
+            margin: 0; /* Remove spacing to connect with h2 */
+            display: inline;
+        }
+
+        /* Action items - Bold */
+        .a-v-a, 
+        .a-t-a {
+            font-weight: 700;
+            font-size: 1em;
+            margin: 0;
+            display: inline;
+        }
+
+        /* Make value description and action appear on same line */
+        .a-v-d, .a-v-a {
+            
+        }
+
+        /* Rationales - Smaller and grey */
+        .a-v-r, 
+        .a-t-r {
+            font-weight: 300;
+            font-size: 0.9em;
+            color: #666666;
+            margin: .6em 0 1.5em 0; /* Top: 0, Right: 0, Bottom: 1.5em, Left: 0 */
+        }
+    </style>
+    
+    <!-- Optional override CSS file - will override the above styles if it exists -->
+    <link rel="stylesheet" href="aifp-overrides.css" onerror="this.remove()">
+</head>
+<body>
+    <h1>{{Title}}</h1>
+    
+    <p>{{Description}}</p>
+    
+    <H2>Values</H2>
+
+    <!-- Value Content -->
+    <div class="a-v-t">{{value-title-1}}</div>
+    <div class="a-v-d">{{value-desc-1}}</div><div class="a-v-a"> {{value-act-1}}</div>
+    <div class="a-v-r">{{value-rat-1}}</div>
+
+    <H2>Core Tenets</H2>
+    <!-- Tenet Content -->
+    <div class="a-t-t">{{tenet-title-1}}</div>
+    <div class="a-t-d">{{tenet-desc-1}}</div><div class="a-t-a"> {{tenet-act-1}}</div>
+    <div class="a-t-r">{{tenet-rat-1}}</div>
+</body>
+</html>
