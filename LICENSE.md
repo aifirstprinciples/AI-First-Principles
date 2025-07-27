@@ -1,4 +1,5 @@
 # AI First Principles Open License
+(Based on permissive licensing; resale prohibited)
 
 Copyright (c) 2025 AI First Principles (aifirstprinciples.org)
 
