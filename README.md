@@ -1,5 +1,5 @@
 # AI-First-Principles
-A public, open-source framework inspired by the Agile Manifesto for operationalizing AI without automating dysfunction. Human ownership, AI execution. For builders shipping AI products.
+A public, open-source framework for operationalizing AI without automating dysfunction. Humans stay accountable, AI amplifies capability. 
 
 ## License
 This project is licensed under the AI First Principles Open License.
@@ -33,14 +33,7 @@ These sources most directly shaped AI First Principles' philosophy, format, and 
 - **The Agile Manifesto** (agilemanifesto.org) - Inspired our manifesto format, collaborative development process, and focus on individuals over rigid processes
 - **The Musk Algorithm** (Elon Musk) - Five-step process for eliminating bureaucracy that directly influenced our approach to questioning requirements
 - **Age of Invisible Machines** (Robb Wilson, Josh Tyson) - Foundational insights on conversational AI, human-machine collaboration, and preventing automation dysfunction
-- **Effective UI: The Art of Building Great User Experience in Software** - Human-centered interface design principles that inform AI transparency and user agency
 
-### Human-Centered Design Philosophy
-- **Design Thinking** (IDEO) - Human-centered innovation methodology that shaped our emphasis on empathy and user needs
-- **Human-Centered Design** - Empathy-driven problem solving from user perspective
-- **User Experience (UX) Principles** - Interface design focused on human cognitive patterns
-- **Servant Leadership** - Leaders serve teams rather than command them
-- **Psychological Safety** - Creating environments where people can take risks and fail safely
 
 ### Strategic Thinking & Mental Models
 - **Wardley Mapping** (Simon Wardley) - Visual strategy maps showing component evolution and dependencies
@@ -48,6 +41,14 @@ These sources most directly shaped AI First Principles' philosophy, format, and 
 - **Jobs to be Done** (Clayton Christensen) - Understanding what customers actually hire products to accomplish
 - **Lateral Thinking** (Edward de Bono) - Creative problem-solving through indirect and non-obvious reasoning
 - **Disruptive Innovation Theory** (Clayton Christensen) - How new technologies transform markets
+
+### Human-Centered Design Philosophy
+- **Effective UI: The Art of Building Great User Experience in Software** - Human-centered interface design principles that inform AI transparency and user agency
+- **Design Thinking** (IDEO) - Human-centered innovation methodology that shaped our emphasis on empathy and user needs
+- **Human-Centered Design** - Empathy-driven problem solving from user perspective
+- **User Experience (UX) Principles** - Interface design focused on human cognitive patterns
+- **Servant Leadership** - Leaders serve teams rather than command them
+- **Psychological Safety** - Creating environments where people can take risks and fail safely
 
 ### Process Excellence & Manufacturing Wisdom
 - **Six Sigma** - Data-driven approach to reducing variation and defects

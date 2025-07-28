@@ -32,7 +32,7 @@ Before executing any build step:
 ## Step 2 - build a simple html file
 you will be creating a new html file based on a template and saving the new file in the 
 /build directory
-open the "ai first principles template.html" file
+open the "ai first principles template" file
 
 Find and replace the placeholders for the values you have pulled in Step 1
 -- NOTE: YOU MAY NEED TO CREATE PLACEHOLDERS IF YOU HAVE MORE VALUES OR TENETS THAN THERE IS IN THE TEMPALTE
@@ -43,20 +43,9 @@ important: when dealing with the tenet-rat-n and value-rat-n content, they have 
 
 Save this new document as "ai first principles.html" in the /build directory (if this file already exists, replace it)
 
-## Step 3 - Craft AI First Principles for Prompts content
-you will be creating a new json file based on a template and saving the new file in the 
-/build directory
-open the "ai first principles prompt template.jsonl" file
-
-Find and replace the placeholders for the values you have pulled in Step 1
--- NOTE: YOU MAY NEED TO CREATE PLACEHOLDERS IF YOU HAVE MORE VALUES OR TENETS THAN THERE IS IN THE TEMPALTE
-
-placeholders will look like this : "{{placeholder name}}"
-
-important: when dealing with the tenet-rat-n and value-rat-n content, they have new lines . You need to preserve new lines by adding paragraph tags to text s that the content is appropriatly spaced 
-
-Save this new document as "ai first principles prompt.json" in the /build directory (if this file already exists, replace it)
+## Step 3 - another format
+instructions to come later - skip this step
 
 
-## Step 4 - build jupyter notebook
+## Step 4 - another format
 instructions to come later - skip this step
