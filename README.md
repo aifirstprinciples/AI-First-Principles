@@ -1,27 +1,28 @@
 # AI-First-Principles
 A public, open-source framework for operationalizing AI without automating dysfunction. Humans stay accountable, AI amplifies capability. 
 
-## License
-This project is licensed under the AI First Principles Open License.
-It permits free use, redistribution, and modification — including commercial use — so long as the Principles remain free and attribution is included.
-See LICENSE for full terms.
+## AI First Principles License  
+Copyright (c) 2025 AI First Principles (aifirstprinciples.org)
+
+**AI First Principles** is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.
+
+**Attribution:**  
+When using, sharing, or adapting the AI First Principles, you must provide clear attribution to "AI First Principles" and include a link to https://aifirstprinciples.org.
+
 
 ## Repository Structure
 
 This repository is organized to support the development and distribution of the AI First Principles:
 
 - **`ai first principles.md`**
-The main content file containing the full text of the published principles. This is open source and where we welcome contributions from the community.
+The primary, authoritative content containing the full text of the published principles. This is open source and where we welcome contributions from the community.
 
-- **`src/cursor build instructions.md`**
-Contains instructions for building out other formats of the "ai first principles.md" content using Cursor.
+- **`Manifesto/Ai First Principles Manifesto.md`**
+The supporting rationale and research for the AI First Principles
 
-- **`src/templates/`**
-Directory containing template files used by the cursor build instructions to generate various output formats.
+- **`www`**
+Directory containing various exports in usable file formats of `ai first principles.md` and `AI First Principles Manifesto.md`
 
-- **`build/`**
-Directory where newly generated files will be stored after the build process.
-
-- **`www/`**
-Directory containing the source code for the https://www.aifirstprinciples.org website.
+- **`www/AI First Principles Practitioner Prompt.md`**
+A special output for practitioners to use as a prompt when implimenting AI First Principles
 
