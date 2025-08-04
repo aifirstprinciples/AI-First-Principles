@@ -1,22 +1,14 @@
-# AI First Principles Open License
-(Based on permissive licensing; resale prohibited)
-
+# AI First Principles License  
 Copyright (c) 2025 AI First Principles (aifirstprinciples.org)
 
-Permission is hereby granted, free of charge, to any person or organization obtaining a copy of AI First Principles, to use, copy, merge, publish, and distribute copies of, subject to the following conditions:
+**AI First Principles** is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.
 
-1. **Freedom to Publish and Use**
-   - You may use, copy, merge, publish, and share AI First Principles for any purpose, including commercial, non-profit, or educational uses. You may include the Principles in for-profit works, such as consulting services, software, or educational materials. However, you may not sell the Principles as a standalone product for profit (e.g., as a separate document or file sold independently).
+**Attribution:**  
+When using, sharing, or adapting the AI First Principles, you must provide clear attribution to "AI First Principles" and include a link to https://aifirstprinciples.org.
 
-2. **Inclusion of Full Text**
-   - Any publication, distribution, or derivative work must include the full text of the AI First Principles as originally provided.
+**Requests For Support**  
+We encourage, but do not require, the following to support the AI First Principles project:
 
-3. **Attribution**
-   - You must provide clear attribution to AI First Principles by including the following statement in a prominent location (such as a README, website, or publication):
-
-     > "This work incorporates the AI First Principles (aifirstprinciples.org)."
-
-4. **Notification Request (Optional)**
-   - We ask (but do not require) that you let us know where and how you have used the Principles by emailing info@aifirstprinciples.org.
-
-AI FIRST PRINCIPLES ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE PRINCIPLES OR THE USE OR OTHER DEALINGS IN AI FIRST PRINCIPLES. 
+    1. **Notification:** Let us know how and where you have used the AI First Principles by emailing info@aifirstprinciples.org.
+    2. **Contribution:** If you have suggestions for changes or improvements, please share them via our GitHub repository at [https://github.com/aifirstprinciples/AI-First-Principles](https://github.com/aifirstprinciples/AI-First-Principles).
+    3. **Financial Support:** Consider supporting the promotion and development of AI First Principles through our Patreon at [https://www.patreon.com/c/AIFirstPrinciples](https://www.patreon.com/c/AIFirstPrinciples).
