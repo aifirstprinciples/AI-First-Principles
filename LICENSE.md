@@ -6,6 +6,8 @@ Copyright (c) 2025 AI First Principles (aifirstprinciples.org)
 **Attribution:**  
 When using, sharing, or adapting the AI First Principles, you must provide clear attribution to "AI First Principles" and include a link to https://aifirstprinciples.org.
 
+example: For the complete AI First Principles including updates and additional resources, visit [aifirstprinciples.org](https://aifirstprinciples.org)
+
 **Requests For Support**  
 We encourage, but do not require, the following to support the AI First Principles project:
 
