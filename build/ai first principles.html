@@ -40,45 +40,6 @@
             font-size: 1em;
             margin: 0; /* Remove spacing to connect with h2 */
         }
-
-        /* Bold text styling */
-        strong {
-            font-weight: 700;
-        }
-
-        /* Underlined text styling */
-        u {
-            text-decoration: underline;
-        }
-
-        /* Italic text styling */
-        em {
-            font-style: italic;
-        }
-
-        /* Link styling */
-        a {
-            color: #0066cc;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        /* List styling */
-        ol {
-            font-weight: 300;
-            font-size: 1em;
-            margin: 0;
-            padding-left: 20px;
-        }
-
-        li {
-            font-weight: 300;
-            font-size: 1em;
-            margin: 0.2em 0;
-        }
     </style>
     
     <!-- Optional override CSS file - will override the above styles if it exists -->
@@ -86,72 +47,61 @@
 </head>
 <body>
   <h1>AI First Principles</h1>
-  
-  <p>AI isn't coming for jobs - it's coming for the bureaucracy that makes work miserable. But AI can only eliminate dysfunction for organizations willing to rebuild operations around its capabilities, not just add AI features to outdated processes.</p>
-  
-  <p>The AI First Principles are for people charged with operationalizing AI in organizations. These foundational <strong>Values</strong> for deploying AI strategically are supported by operational <strong>Core Tenets</strong> that shape adoption. They assume existing governance will cover consumer protection, industry compliance, and legal obligations.</p>
+  <p>AI isn't coming for jobs, it's coming for the bureaucracy that makes work miserable. AI eliminates dysfunction only when you rebuild operations around its capabilities. Automating broken processes just scales dysfunction.</p>
 
-  <h2>Values</h2>
+  <p>These principles guide people operationalizing AI. They emerged from watching systems fail, then understanding why.</p>
+
+  <h3>AI Inherits Human Patterns</h3>
+  <p>AI learns from human-generated data, absorbing the bias, inconsistency, and contextual assumptions. This makes variation inevitable, not accidental. <u><em>Variation is guaranteed. Constraints aren't optional.</em></u></p>
 
   <h3>People Own Objectives</h3>
-  <p>Every objective needs a human owner to ensure people remain accountable for outcomes. When AI causes harm, the human owner is accountable, not the algorithm. <u><em>Name the Owner</em></u></p>
+  <p>Every objective needs a human owner to ensure people remain accountable for outcomes. When AI causes harm, the human owner is accountable, not the algorithm. <u><em>Name the Owner.</em></u></p>
 
   <h3>Individuals Come First</h3>
-  <p>Prioritize human autonomy, safety, and well-being above efficiency, profit, or convenience. AI amplifies values, biases, and the capacity for manipulation. <u><em>Build systems that preserve human agency above all else.</em></u></p>
-
-  <h3>Build From User Experience</h3>
-  <p>Design insight comes from living with the daily friction that analysis misses. People who navigate these daily realities understand what breaks and why. <u><em>The people wrestling with system failures are the ones most qualified to design system futures.</em></u></p>
-
-  <h2>Core Tenets</h2>
-
-  <h3>Design a Hierarchy of Agency</h3>
-  <p>Think org chart for AI decisions - clearly mapping when AI acts independently, when it recommends, and when it must escalate to humans. <u><em>Design the discernment model, then let AI operate within it.</em></u></p>
+  <p>AI industrializes manipulation by personalizing it at scale. Prioritize human autonomy, safety, and well-being above efficiency, profit, or convenience. What once required mass campaigns now operates at the individual level, faster than people can recognize or consent. <u><em>Build systems that preserve human agency above all else.</em></u></p>
 
   <h3>Deception Destroys Trust</h3>
   <p>AI that pretends to be human eliminates informed consent and creates false relationships. People cannot collaborate effectively with what they don't recognize as artificial. <u><em>Make AI obvious, not hidden.</em></u></p>
 
-  <h3>Prevent What Can't Be Fixed</h3>
-  <p>Some risks destroy projects entirely. Security vulnerabilities, compliance violations, and data breaches require prevention, not iteration. <u><em>Build regulatory and technical safeguards into architecture decisions from day one.</em></u></p>
+  <h3>AI Fails Faster Than Humans React</h3>
+  <p>AI compounds errors and authority before humans detect patterns. Traditional systems failed slowly; AI crosses undefined boundaries thousands of times before you notice. Ambiguous authority becomes catastrophic delegation at machine speed. <u><em>Set boundaries, validate capability.</em></u></p>
 
-  <h3>Uncertainty Cultivates Wisdom</h3>
-  <p>People instinctively demand definitive answers, but ranges and probabilities contain useful information. Forcing complex realities into simple yes/no responses destroys important nuance. <u><em>Build systems that show the 'maybe' instead of hiding behind false certainty.</em></u></p>
+  <h3>Ambiguity Is Wisdom</h3>
+  <p>Experts navigate gray areas; beginners demand binary answers. AI produces probabilities that demand judgment, not facts that replace it. When systems force ambiguity into yes/no decisions, they destroy the space where expertise operates. <u><em>Reveal the probabilities.</em></u></p>
 
-  <h3>Requirements Demand Skepticism</h3>
-  <p>Challenge every assumption, especially 'that's how we've always done it.' Question until those doing the work can defend it with current logic. Principles applied dogmatically become obstacles (including these). <u><em>When a requirement conflicts with reality, trust reality.</em></u></p>
+  <h3>Build From User Experience</h3>
+  <p>Design insight comes from living with the daily friction that analysis misses. People who navigate these daily realities understand what breaks and why. <u><em>People wrestling with system failures are the ones qualified to design system futures.</em></u></p>
 
   <h3>Discovery Before Disruption</h3>
-  <p>Systems reveal their true purpose when people actually use them. Seemingly pointless redundancies may reveal hidden logic. Unwritten rules only surface when engaging with the actual work. <u><em>Always understand why things exist before you change them.</em></u></p>
+  <p>Systems hide logic until something breaks. The redundancy that looks pointless prevents failures you've never seen. The manual step that feels inefficient satisfies requirements nobody documented. Deletion scales faster than comprehension. <u><em>Remove only what you understand; build to discover the rest.</em></u></p>
 
   <h3>Reveal the Invisible</h3>
-  <p>Visual representations reveal complexity that written descriptions hide. A diagram shows bottlenecks, a journey map exposes human pain, a wireframe reveals confusion. <u><em>Visuals become the instrument panel for navigating reality from the human perspective.</em></u></p>
-
-  <h3>Embrace Necessary Complexity</h3>
-  <p>Some complexity creates competitive advantage, other complexity just creates work. A sophisticated fraud detection creates an edge; a five-approval purchase process does not. <u><em>Delete what slows people down, invest in complexity that eliminates customer pain.</em></u></p>
-
-  <h3>Optimize For Velocity</h3>
-  <p>Every delay costs opportunity, but speed without efficiency burns resources like compute cycles, human time, and organizational energy. Poor resource allocation creates workflow friction. <u><em>Relentlessly eliminate unnecessary friction.</em></u></p>
+  <p>Gaps in understanding hide inside abstraction until forced into concrete form. The most valuable representation is whatever hurts most to produce; whether diagram, specification, or working prototype. Easy articulation reveals nothing; difficulty exposes confusion. <u><em>Choose representations that force confrontation with what you don't know.</em></u></p>
 
   <h3>Iterate Towards What Works</h3>
-  <p>The best requirements emerge through building, not planning sessions. Real understanding comes from making, testing, and failing in rapid cycles. <u><em>Improvement cycles reveal what meetings will not. Build to discover.</em></u></p>
+  <p>Requirements emerge through building, not planning meetings. Inherited practices carry outdated logic that meetings can't expose. Iteration without feedback is repetition; only rapid cycles of making, testing, and failing reveal what actually works. <u><em>Build to discover; test to validate; repeat.</em></u></p>
 
-  <h3>Earn the Right to Rebuild</h3>
-  <p>People naturally want to rebuild broken systems from scratch rather than improve them incrementally. Total rebuilds without earned understanding create elegant solutions to misunderstood problems. <u><em>Prove systems can be improved before attempting to replace them entirely.</em></u></p>
+  <h3>Scale Only What Earns Its Cost</h3>
+  <p>AI compounds small inefficiencies into massive hidden costs. Traditional systems made waste visible; AI makes it invisible until it's catastrophic. Not all complexity delivers value. <u><em>Optimize the ratio of value per resource spent.</em></u></p>
+
+  <h3>Build for Incremental Obsolescence</h3>
+  <p>People naturally want to rebuild legacy systems from scratch rather than break them into replaceable components. Systems built without optionality force catastrophic change when assumptions break. <u><em>Enable piece-by-piece evolution, not all-or-nothing replacement.</em></u></p>
 
   <h2>AI First Principles License</h2>
   <p>Copyright (c) 2025 AI First Principles (aifirstprinciples.org)</p>
 
-  <p><strong>AI First Principles</strong> is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). To view a copy of this license, visit <a href="https://creativecommons.org/licenses/by/4.0/">https://creativecommons.org/licenses/by/4.0/</a>.</p>
+  <p><strong>AI First Principles</strong> is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). To view a copy of this license, visit https://creativecommons.org/licenses/by/4.0/.</p>
 
-  <h3>Attribution</h3>
-  <p>When using, sharing, or adapting the AI First Principles, you must provide clear attribution to "AI First Principles" and include a link to <a href="https://aifirstprinciples.org">https://aifirstprinciples.org</a>.</p>
+  <h3>Attribution:</h3>
+  <p>When using, sharing, or adapting the AI First Principles, you must provide clear attribution to "AI First Principles" and include a link to https://aifirstprinciples.org.</p>
+
+  <p>example: For the complete AI First Principles including updates and additional resources, visit <a href="https://aifirstprinciples.org">aifirstprinciples.org</a></p>
 
   <h3>Requests For Support</h3>
   <p>We encourage, but do not require, the following to support the AI First Principles project:</p>
 
-  <ol>
-    <li><strong>Notification:</strong> Let us know how and where you have used the AI First Principles by emailing <a href="mailto:info@aifirstprinciples.org">info@aifirstprinciples.org</a>.</li>
-    <li><strong>Contribution:</strong> If you have suggestions for changes or improvements, please share them via our GitHub repository at <a href="https://github.com/aifirstprinciples/AI-First-Principles">https://github.com/aifirstprinciples/AI-First-Principles</a>.</li>
-    <li><strong>Financial Support:</strong> Consider supporting the promotion and development of AI First Principles through our Patreon at <a href="https://www.patreon.com/c/AIFirstPrinciples">https://www.patreon.com/c/AIFirstPrinciples</a>.</li>
-  </ol>
+  <p style="margin-left: 2em;">1. <strong>Notification:</strong> Let us know how and where you have used the AI First Principles by emailing info@aifirstprinciples.org.</p>
+  <p style="margin-left: 2em;">2. <strong>Contribution:</strong> If you have suggestions for changes or improvements, please share them via our GitHub repository at <a href="https://github.com/aifirstprinciples/AI-First-Principles">https://github.com/aifirstprinciples/AI-First-Principles</a>.</p>
+  <p style="margin-left: 2em;">3. <strong>Financial Support:</strong> Consider supporting the promotion and development of AI First Principles through our Patreon at <a href="https://www.patreon.com/c/AIFirstPrinciples">https://www.patreon.com/c/AIFirstPrinciples</a>.</p>
 </body>
-</html> 
+</html>
