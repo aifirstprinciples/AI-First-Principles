@@ -1,6 +1,9 @@
-# AI First Principles Manifesto
+# AI First Principles Treatise
 
 Designing **O**rganizational **A**rtificial **G**eneral **I**ntelligence
+
+##The Case for the Principles
+This treatise is the definitive collection of evidence and reasoning that underpins the AI First Principles. It serves as the formal, foundational proof for the framework, not a guide for its implementation.
 
 ## Introduction
 

@@ -1,51 +1,41 @@
-# AI First Principles
-AI isn't coming for jobs - it's coming for the bureaucracy that makes work miserable. But AI can only eliminate dysfunction for organizations willing to rebuild operations around its capabilities, not just add AI features to outdated processes.
 
-The AI First Principles are for people charged with operationalizing AI in organizations. These foundational **Values** for deploying AI strategically are supported by operational **Core Tenets** that shape adoption. They assume existing governance will cover consumer protection, industry compliance, and legal obligations.
+#AI First Principles
+AI isn't coming for jobs, it's coming for the bureaucracy that makes work miserable. AI eliminates dysfunction only when you rebuild operations around its capabilities. Automating broken processes just scales dysfunction.
 
+These principles guide people operationalizing AI. They emerged from watching systems fail, then understanding why.
 
-## Values
+**AI Inherits Human Patterns**  
+AI learns from human-generated data, absorbing the bias, inconsistency, and contextual assumptions. This makes variation inevitable, not accidental. <u>*Variation is guaranteed. Constraints aren't optional.*</u>
 
 **People Own Objectives**  
-Every objective needs a human owner to ensure people remain accountable for outcomes. When AI causes harm, the human owner is accountable, not the algorithm. <u>*Name the Owner*</u>
+Every objective needs a human owner to ensure people remain accountable for outcomes. When AI causes harm, the human owner is accountable, not the algorithm. <u>*Name the Owner.*</u>
 
 **Individuals Come First**  
-Prioritize human autonomy, safety, and well-being above efficiency, profit, or convenience. AI amplifies values, biases, and the capacity for manipulation. <u>*Build systems that preserve human agency above all else.*</u>
+AI industrializes manipulation by personalizing it at scale. Prioritize human autonomy, safety, and well-being above efficiency, profit, or convenience. What once required mass campaigns now operates at the individual level, faster than people can recognize or consent. <u>*Build systems that preserve human agency above all else.*</u>
 
-**Build From User Experience**  
-Design insight comes from living with the daily friction that analysis misses. People who navigate these daily realities understand what breaks and why.  <u>*The people wrestling with system failures are the ones most qualified to design system futures.*</u>
-
-## Core Tenets
-
-**Design a Hierarchy of Agency**  
-Think org chart for AI decisions - clearly mapping when AI acts independently, when it recommends, and when it must escalate to humans. <u>*Design the discernment model, then let AI operate within it.*</u>
-
-**Deception Destroys Trust** 
+**Deception Destroys Trust**  
 AI that pretends to be human eliminates informed consent and creates false relationships. People cannot collaborate effectively with what they don't recognize as artificial. <u>*Make AI obvious, not hidden.*</u>
 
-**Prevent What Can't Be Fixed**  
-Some risks destroy projects entirely. Security vulnerabilities, compliance violations, and data breaches require prevention, not iteration. <u>*Build regulatory and technical safeguards into architecture decisions from day one.*</u>
+**AI Fails Faster Than Humans React**  
+AI compounds errors and authority before humans detect patterns. Traditional systems failed slowly; AI crosses undefined boundaries thousands of times before you notice. Ambiguous authority becomes catastrophic delegation at machine speed.  <u>*Set boundaries, validate capability.*</u>
 
-**Uncertainty Cultivates Wisdom**  
-People instinctively demand definitive answers, but ranges and probabilities contain useful information. Forcing complex realities into simple yes/no responses destroys important nuance. <u>*Build systems that show the 'maybe' instead of hiding behind false certainty.*</u>
+**Ambiguity Is Wisdom**  
+Experts navigate gray areas; beginners demand binary answers. AI produces probabilities that demand judgment, not facts that replace it. When systems force ambiguity into yes/no decisions, they destroy the space where expertise operates. <u>*Reveal the probabilities.*</u>
 
-**Requirements Demand Skepticism**  
-Challenge every assumption, especially 'that's how we've always done it.' Question until those doing the work can defend it with current logic. Principles applied dogmatically become obstacles (including these). <u>*When a requirement conflicts with reality, trust reality.*</u>
+**Build From User Experience**  
+Design insight comes from living with the daily friction that analysis misses. People who navigate these daily realities understand what breaks and why. <u>*People wrestling with system failures are the ones qualified to design system futures.*</u>
 
 **Discovery Before Disruption**  
-Systems reveal their true purpose when people actually use them. Seemingly pointless redundancies may reveal hidden logic. Unwritten rules only surface when engaging with the actual work. <u>*Always understand why things exist before you change them.*</u>
+Systems hide logic until something breaks. The redundancy that looks pointless prevents failures you've never seen. The manual step that feels inefficient satisfies requirements nobody documented. Deletion scales faster than comprehension. <u>*Remove only what you understand; build to discover the rest.*</u>
 
 **Reveal the Invisible**  
-Visual representations reveal complexity that written descriptions hide. A diagram shows bottlenecks, a journey map exposes human pain, a wireframe reveals confusion. <u>*Visuals become the instrument panel for navigating reality from the human perspective.*</u>
-
-**Embrace Necessary Complexity**  
-Some complexity creates competitive advantage, other complexity just creates work. A sophisticated fraud detection creates an edge; a five-approval purchase process does not. <u>*Delete what slows people down, invest in complexity that eliminates customer pain.*</u>
-
-**Optimize For Velocity**  
-Every delay costs opportunity, but speed without efficiency burns resources like compute cycles, human time, and organizational energy. Poor resource allocation creates workflow friction. <u>*Relentlessly eliminate unnecessary friction.*</u>
+Gaps in understanding hide inside abstraction until forced into concrete form. The most valuable representation is whatever hurts most to produce; whether diagram, specification, or working prototype. Easy articulation reveals nothing; difficulty exposes confusion. <u>*Choose representations that force confrontation with what you don't know.*</u>
 
 **Iterate Towards What Works**  
-The best requirements emerge through building, not planning sessions. Real understanding comes from making, testing, and failing in rapid cycles. <u>*Improvement cycles reveal what meetings will not. Build to discover.*</u>
+Requirements emerge through building, not planning meetings. Inherited practices carry outdated logic that meetings can't expose. Iteration without feedback is repetition; only rapid cycles of making, testing, and failing reveal what actually works. <u>*Build to discover; test to validate; repeat.*</u>
 
-**Earn the Right to Rebuild**  
-People naturally want to rebuild broken systems from scratch rather than improve them incrementally. Total rebuilds without earned understanding create elegant solutions to misunderstood problems. <u>*Prove systems can be improved before attempting to replace them entirely.*</u>
+**Scale Only What Earns Its Cost**  
+AI compounds small inefficiencies into massive hidden costs. Traditional systems made waste visible; AI makes it invisible until it's catastrophic. Not all complexity delivers value. <u>*Optimize the ratio of value per resource spent.*</u>
+
+**Build for Incremental Obsolescence**  
+People naturally want to rebuild legacy systems from scratch rather than break them into replaceable components. Systems built without optionality force catastrophic change when assumptions break. <u>*Enable piece-by-piece evolution, not all-or-nothing replacement.*</u>
