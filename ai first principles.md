@@ -1,41 +1,65 @@
+# AI First Principles
 
-#AI First Principles
-AI isn't coming for jobs, it's coming for the bureaucracy that makes work miserable. AI eliminates dysfunction only when you rebuild operations around its capabilities. Automating broken processes just scales dysfunction.
+AI isn't coming for jobs, it's coming for the bureaucracy that makes work miserable. But bolting AI onto broken processes just scales the mess faster. Eliminating organizational dysfunction demands rethinking both how you design technology and how you rebuild the operations around it.
 
-These principles guide people operationalizing AI. They emerged from watching systems fail, then understanding why.
+The AI First Principles guide teams charged with operationalizing AI. They emerged from decades of building for users, understanding what breaks and why, and codifying what holds under pressure.
 
-**AI Inherits Human Patterns**  
-AI learns from human-generated data, absorbing the bias, inconsistency, and contextual assumptions. This makes variation inevitable, not accidental. <u>*Variation is guaranteed. Constraints aren't optional.*</u>
 
-**People Own Objectives**  
-Every objective needs a human owner to ensure people remain accountable for outcomes. When AI causes harm, the human owner is accountable, not the algorithm. <u>*Name the Owner.*</u>
+## AI Inherits Messiness  
+AI learns from people. Therefore AI systems, like people, are inconsistent and operate more effectively with structure. Trying to engineer them to operate like deterministic code will result in system failures. Variation is inevitable, not accidental. **Define what's prohibited over what's required.**
 
-**Individuals Come First**  
-AI industrializes manipulation by personalizing it at scale. Prioritize human autonomy, safety, and well-being above efficiency, profit, or convenience. What once required mass campaigns now operates at the individual level, faster than people can recognize or consent. <u>*Build systems that preserve human agency above all else.*</u>
+<!-- BECAUSE AI is inconsistent and learns messy patterns... -->
 
-**Deception Destroys Trust**  
-AI that pretends to be human eliminates informed consent and creates false relationships. People cannot collaborate effectively with what they don't recognize as artificial. <u>*Make AI obvious, not hidden.*</u>
+## AI Fails Silently   
+AI accumulates errors across thousands of interactions before patterns become visible. Traditional systems failed loudly with clear signals; AI fails quietly on repeat. **Build feedback loops over post-mortems.**
 
-**AI Fails Faster Than Humans React**  
-AI compounds errors and authority before humans detect patterns. Traditional systems failed slowly; AI crosses undefined boundaries thousands of times before you notice. Ambiguous authority becomes catastrophic delegation at machine speed.  <u>*Set boundaries, validate capability.*</u>
+<!-- THEREFORE we need human oversight and accountability... -->
 
-**Ambiguity Is Wisdom**  
-Experts navigate gray areas; beginners demand binary answers. AI produces probabilities that demand judgment, not facts that replace it. When systems force ambiguity into yes/no decisions, they destroy the space where expertise operates. <u>*Reveal the probabilities.*</u>
+## People Own Objectives   
+AI shouldn't be used in place of human discernment, judgment, or taste. When AI makes mistakes or causes harm, a person should be held accountable, not the algorithm. **Name the owner.**
 
-**Build From User Experience**  
-Design insight comes from living with the daily friction that analysis misses. People who navigate these daily realities understand what breaks and why. <u>*People wrestling with system failures are the ones qualified to design system futures.*</u>
+<!-- WHICH REQUIRES that people understand what they're interacting with... -->
 
-**Discovery Before Disruption**  
-Systems hide logic until something breaks. The redundancy that looks pointless prevents failures you've never seen. The manual step that feels inefficient satisfies requirements nobody documented. Deletion scales faster than comprehension. <u>*Remove only what you understand; build to discover the rest.*</u>
+## Deception Destroys Trust  
+When AI pretends to be human, people cannot calibrate their expectations, recognize its limitations, and protect themselves from its failures. **Make AI obvious, not hidden.**
 
-**Reveal the Invisible**  
-Gaps in understanding hide inside abstraction until forced into concrete form. The most valuable representation is whatever hurts most to produce; whether diagram, specification, or working prototype. Easy articulation reveals nothing; difficulty exposes confusion. <u>*Choose representations that force confrontation with what you don't know.*</u>
+<!-- AND to maintain agency in an AI-scaled world... -->
 
-**Iterate Towards What Works**  
-Requirements emerge through building, not planning meetings. Inherited practices carry outdated logic that meetings can't expose. Iteration without feedback is repetition; only rapid cycles of making, testing, and failing reveal what actually works. <u>*Build to discover; test to validate; repeat.*</u>
+## Individuals First  
+AI industrializes manipulation by personalizing it at scale. Mass persuasion becomes individual manipulation. Build tools that people control, not tools that control people. **Prioritize individual agency above efficiency, profit, or convenience.**
 
-**Scale Only What Earns Its Cost**  
-AI compounds small inefficiencies into massive hidden costs. Traditional systems made waste visible; AI makes it invisible until it's catastrophic. Not all complexity delivers value. <u>*Optimize the ratio of value per resource spent.*</u>
+<!-- TO ACHIEVE THIS, we must design from real needs, not assumptions... -->
 
-**Build for Incremental Obsolescence**  
-People naturally want to rebuild legacy systems from scratch rather than break them into replaceable components. Systems built without optionality force catastrophic change when assumptions break. <u>*Enable piece-by-piece evolution, not all-or-nothing replacement.*</u>
+## Build from User Experience  
+Without input from end users, AI solutions won't solve real problems. People wrestling with system failures are the ones qualified to design system futures. **Design systems from lived experience, not distant observation.**
+
+<!-- WHICH MEANS we must first understand before we change... -->
+
+## Discovery Before Disruption  
+Changing systems that aren't understood creates unpredictable failures. Redundancies prevent edge cases and manual steps catch exceptions. Existing inefficiencies are containers of knowledge. **Identify purpose before simplifying.**
+
+<!-- AND during discovery, we must embrace complexity... -->
+
+## Ambiguity Is Wisdom
+Concealing ambiguity removes opportunities for critical judgment. Not all decisions are binary yes/no. Wisdom lives in gray areas. AI produces probabilities that demand judgment, not facts that replace it. **Surface the probabilities.**
+
+<!-- TO SURFACE what we don't yet understand... -->
+
+## Reveal the Invisible 
+There's a wealth of ignorance hiding in document theater. Expose what you don't yet understand by learning how to articulate it. **Pursue what is hard to explain.**
+
+<!-- ONCE WE UNDERSTAND, we must move forward carefully... -->
+
+## Iterate Towards What Works  
+Grand plans commit to solutions without validating problems. Iteration tests assumptions and measures impact, revealing what works gradually over time. Inherited practices carry outdated logic that meetings can't expose. **Learn by doing, not planning.**
+
+<!-- BECAUSE full rewrites fail... -->
+
+## Decompose Incrementally 
+Legacy systems carry too much technical debt to replace and are too brittle to automate. AI systems should allow isolated components to decompose naturally. **Dismantle legacy complexity piece-by-piece.**
+
+<!-- WHILE ENSURING we're responsible with resources... -->
+
+## Justify Resource Consumption  
+AI makes it trivially easy to waste resources. What costs pennies to create can cost millions to run. The friction that once prompted resource consideration has vanished. The resources remain real: energy, water, compute, time. **Optimize the ratio of value per resource spent.**
+
